@@ -5,8 +5,8 @@
       var $element = $(this);
       var $parent = $element.parent();
 
-      var parent_height = $parent.height();
-      var element_height = $element.height();
+      var parent_height = $parent.outerHeight();
+      var element_height = $element.outerHeight();
 
       if(parent_height>element_height)
       {
