@@ -37,3 +37,9 @@ $(element).removeClass('unavailable');</code></pre>
 So I made <code>removeClasses()</code>. I hope it's pretty obvious.
 
 <pre><code>$(element).removeClasses('error','unavailable');</code></pre>
+
+h3. vertically_align.js
+
+This plugin vertically aligns stuff! It looks at the specified element. The element is then styled as <code>position: relative</code> if not already relative or absolute positioned. The height difference between the element and the parent is determined and added to the <code>top</code> value.
+
+<code>$('.entry p', '#header h1').verticallyAlign();</code>
